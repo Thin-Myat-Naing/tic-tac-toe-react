@@ -42,7 +42,6 @@ export default function App() {
   }
 
   return (
-    
     <div className='board'>
       <div className="status">{status}</div>
       <div className="board-row">
