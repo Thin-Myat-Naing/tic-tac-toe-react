@@ -15,7 +15,6 @@ export default function App() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
-
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
       return;
