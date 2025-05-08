@@ -2,8 +2,6 @@ import { useState } from 'react';
 // import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-import App from './App';
-
 function Square({value, onSquareClick}) {
   return  (
     <button 
@@ -13,7 +11,7 @@ function Square({value, onSquareClick}) {
     </button>
   );
 }
-export default function Board() {
+export default function App() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
